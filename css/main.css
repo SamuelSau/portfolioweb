@@ -1,11 +1,13 @@
 body {
   font-weight: 100;
-  font-family: 'Courgette', sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: black;
   color: white;
+  scroll-behavior: smooth;
 }
 
 body span {
+  font-family: 'Courgette', sans-serif;
   padding: 0.5em;
   font-weight: bold;
   color: #56f7f7;
@@ -33,8 +35,28 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #8bd6d6;
+}
+
+a:visited {
+  color: #d83cd8;
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
+}
+
+.aboutme h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.aboutme p {
+  font-weight: 100px;
+}
+
+.aboutme span {
+  color: green;
 }
 /*# sourceMappingURL=main.css.map */

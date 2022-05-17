@@ -1,13 +1,15 @@
 
 body {
     font-weight: 100;
-    font-family: 'Courgette', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: black;
     color: white;
+    scroll-behavior: smooth;
     span {
-        padding: 0.5em;
-        font-weight: bold;
-        color:rgb(86, 247, 247);
+            font-family: 'Courgette', sans-serif;
+            padding: 0.5em;
+            font-weight: bold;
+            color:rgb(86, 247, 247);
     }
 }
 
@@ -32,6 +34,13 @@ svg {
 }
 a {
     text-decoration: none;
+    
+}
+a:hover{
+    color:rgb(139, 214, 214)
+}
+a:visited {
+    color: rgb(216, 60, 216);
 }
 
 nav {
@@ -40,6 +49,16 @@ nav {
         padding: 0;
     }
 }
-
+.aboutme {
+    h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    p {
+        font-weight: 100px;
+    }
+    span {
+        color: green;
+    }
+}
 
 
