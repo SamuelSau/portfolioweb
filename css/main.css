@@ -6,7 +6,7 @@ body {
 }
 
 body span {
-  padding: 1.3em;
+  padding: 0.5em;
   font-weight: bold;
   color: #56f7f7;
 }
@@ -14,15 +14,19 @@ body span {
 .hero-img {
   background: url("../assets/latern1.jpg");
   background-size: cover;
-  background-position-x: 20%;
-  background-position-y: 20%;
+  background-position-x: 40%;
+  background-position-y: 40%;
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   z-index: -1;
 }
 
-container svg {
-  padding: 0;
+svg {
+  padding: 20px;
+  fill: white;
+  position: fixed;
+  top: 0px;
+  right: 0px;
 }
 
 a {
