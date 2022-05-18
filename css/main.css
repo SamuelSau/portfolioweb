@@ -192,19 +192,50 @@ nav ul {
   color: green;
 }
 
+.projects {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  height: 100%;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.projects h2 {
+  display: block;
+}
+
+.projects .project1, .projects .project2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 20rem;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border: 3px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 1.3rem;
+  padding-top: 1rem;
+}
+
 .contact {
   display: -ms-grid;
   display: grid;
-  position: -webkit-sticky;
-  position: sticky;
+  position: absolute;
 }
 
 .contact .email-address input, .contact .phone-number input, .contact .message input {
   margin: 20px 0px 20px 0px;
   padding: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: relative;
   border: none;
   border-color: none;
   height: 2rem;
@@ -213,13 +244,11 @@ nav ul {
 
 .contact-img {
   background: url("../assets/dragon1.png");
-  background-position-x: 80%;
-  background-position-y: 80%;
-  background-size: auto;
-  width: 1000px;
-  height: 1000px;
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
-  position: fixed;
+  background-size: cover;
+  background-position-x: 90%;
+  background-position-y: 90%;
+  width: 100%;
+  height: 60vh;
+  z-index: -1;
 }
 /*# sourceMappingURL=main.css.map */
