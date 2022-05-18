@@ -1,3 +1,3 @@
 # portfolioweb
 
-The purpose of this project is a revised version of my website for project showcasing and about me.
+This a revised website portfolio that showcases my projects and an updated layout in terms of aesthetics and structure.
