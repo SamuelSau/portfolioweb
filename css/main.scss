@@ -1,7 +1,7 @@
 body {
 	font-weight: 100;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	background-color: black;
+	background-color: rgb(23, 23, 23);
 	color: white;
 	scroll-behavior: smooth;
 	span {
@@ -10,7 +10,11 @@ body {
 		padding: 0.5em;
 		font-weight: bold;
 		color: rgb(220, 66, 39);
-
+	}
+	span:hover 
+	{
+		visibility: hidden;
+		
 	}
 }
 
@@ -124,6 +128,10 @@ nav {
 	ul {
 		list-style-type: none;
 		padding: 0;
+		display: flex;
+		justify-content: space-between;
+		margin-left: 1rem;
+
 	}
 }
 .aboutme {
@@ -132,9 +140,23 @@ nav {
 	}
 	p {
 		font-weight: 100px;
+		width: 40%;
+		height: 200px;
+		vertical-align: 2;
+		border-color: white;
+		border: 2px;
+		border-style: solid;
 	}
 	span {
 		color: green;
+	}
+	.tools {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		font-size: 2rem;
+		
+		
 	}
 }
 

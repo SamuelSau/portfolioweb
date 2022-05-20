@@ -1,7 +1,7 @@
 body {
   font-weight: 100;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: black;
+  background-color: #171717;
   color: white;
   scroll-behavior: smooth;
 }
@@ -12,6 +12,10 @@ body span {
   padding: 0.5em;
   font-weight: bold;
   color: #dc4227;
+}
+
+body span:hover {
+  visibility: hidden;
 }
 
 .container header {
@@ -178,6 +182,13 @@ a:visited {
 nav ul {
   list-style-type: none;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 1rem;
 }
 
 .aboutme h2 {
@@ -186,10 +197,27 @@ nav ul {
 
 .aboutme p {
   font-weight: 100px;
+  width: 40%;
+  height: 200px;
+  vertical-align: 2;
+  border-color: white;
+  border: 2px;
+  border-style: solid;
 }
 
 .aboutme span {
   color: green;
+}
+
+.aboutme .tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 2rem;
 }
 
 .projects {
